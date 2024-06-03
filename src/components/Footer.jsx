@@ -3,7 +3,7 @@ import logo from "../assets/fix_my_speaker_logo.png";
 
 const Footer = () => {
   return (
-    <div className="container xl:mx-auto text-center mx-4 text-gray-700">
+    <div className="bg-gray-100 text-center p-2 lg:p-6 border text-gray-700">
       <div className="grid lg:grid-cols-3">
         <div className="mt-4 flex flex-col justify-center items-center">
           <img src={logo} alt="img" />
@@ -14,7 +14,7 @@ const Footer = () => {
             and scrambled it to make a type specimen book
           </p>
         </div>
-        <div className="mt-4">
+        <div className="mt-10">
           <ul>
             <li className="font-semibold my-2 text-[17px]">Important Links</li>
             <li className="py-1">Privacy Policy</li>
@@ -24,7 +24,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <ul className="mt-4">
+          <ul className="mt-10">
             <li className="py-1 font-semibold text-[17px]">Social Media</li>
             <li className="py-1">Facebook</li>
             <li className="py-1">Instagram</li>

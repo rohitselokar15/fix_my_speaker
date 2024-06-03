@@ -2,8 +2,8 @@ import React from 'react'
 
 const Blog = () => {
   return (
-    <div>
-      <p>Blog Page</p>
+    <div className='h-screen flex justify-center items-center'>
+      <p className='text-[40px] font-semibold'>Blog Page</p>
     </div>
   )
 }

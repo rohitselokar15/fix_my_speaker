@@ -9,7 +9,7 @@ import Home from "./pages/Home";
 const App = () => {
   return (
     <>
-      <Header />
+      <Header/>
       <Routes>
       <Route path="/" element={<Home/>}/>
         <Route path="/blog" element={<Blog />} />
