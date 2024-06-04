@@ -63,19 +63,19 @@ const Sound = () => {
   };
 
   return (
-    <div className="bg-blue-700 h-[25rem] py-1 md:flex border-red-800 justify-center items-center xl:h-[30rem]">
+    <div className="bg-[#242526] h-[25rem] py-1 md:flex border-red-800 justify-center items-center xl:h-[30rem]">
       <div className="p-8 text-center lg:mr-20 xl:mr-[120px]">
-        <button className="bg-white p-3 rounded-full px-8 text-[25px] xl:text-[35px] xl:px-10 xl:p-4">
+        <button className="bg-white p-3 rounded-full px-8 text-[25px] xl:text-[45px] xl:px-7 xl:p-2">
           💨 💦
         </button>
 
         <div className="my-4 p-4">
           <i
-            className="fa-solid fa-circle-play fa-2xl mx-6 cursor-pointer"
+            className="fa-solid fa-circle-play text-[45px] l mx-6 cursor-pointer text-white "
             onClick={handlePlay}
           />
           <i
-            className="fa-regular fa-circle-pause fa-2xl mx-6  cursor-pointer"
+            className="fa-regular fa-circle-pause  text-[45px]  mx-6  cursor-pointer text-white "
             onClick={handlePause}
           />
         </div>
@@ -91,7 +91,7 @@ const Sound = () => {
         <div>
           <button
             className={`bg-orange-500 mx-2 p-2 rounded-md px-4 xl:p-4 xl:px-6 xl:m-6 text-white font-semibold ${
-              activeButton === 4 && "border-2 border-black shadow-2xl"
+              activeButton === 4 && "border-2 border-white shadow-2xl"
             }`}
             onClick={() => handleDuration(4)}
           >
@@ -99,7 +99,7 @@ const Sound = () => {
           </button>
           <button
             className={`bg-orange-500 mx-2 p-2 rounded-md px-4 xl:p-4 xl:px-6 xl:m-6 text-white font-semibold ${
-              activeButton === 8 && "border-2 border-black shadow-2xl"
+              activeButton === 8 && "border-2 border-white shadow-2xl"
             }`}
             onClick={() => handleDuration(8)}
           >
@@ -109,7 +109,7 @@ const Sound = () => {
         <div className="text-center">
           <button
             className={`bg-orange-500 p-2 rounded-md px-4 xl:p-4 xl:px-6 text-white font-semibold ${
-              activeButton === 12 && "border-2 border-black shadow-2xl"
+              activeButton === 12 && "border-2 border-white shadow-2xl"
             }`}
             onClick={() => handleDuration(12)}
           >
