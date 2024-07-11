@@ -24,7 +24,7 @@ const Content = () => {
           H2 Featues of Tool
         </p>
         <div className="mx-6 mt-4 grid md:grid-cols-2 gap-2 lg:px-14 ">
-          <div className="border mt-6 text-center shadow p-4 m-8 hover:shadow-lg">
+          <div className="border mt-6 text-center shadow p-4 m-8 hover:shadow-lg hover:scale-105 duration-300">
             <div className="flex justify-center items-center mt-2">
               <img src={f1} alt="img" className="w-12" />
             </div>
@@ -37,7 +37,7 @@ const Content = () => {
             </div>
           </div>
 
-          <div className="border mt-6 text-center shadow p-4 m-8 hover:shadow-lg">
+          <div className="border mt-6 text-center shadow p-4 m-8 hover:shadow-lg hover:scale-105 duration-300">
             <div className="flex justify-center items-center mt-2">
               <img src={f1} alt="img" className="w-12" />
             </div>
@@ -50,7 +50,7 @@ const Content = () => {
             </div>
           </div>
 
-          <div className="border mt-6 text-center shadow p-4 m-8 hover:shadow-lg">
+          <div className="border mt-6 text-center shadow p-4 m-8 hover:shadow-lg hover:scale-105 duration-300">
             <div className="flex justify-center items-center mt-2">
               <img src={f1} alt="img" className="w-12" />
             </div>
@@ -63,7 +63,7 @@ const Content = () => {
             </div>
           </div>
 
-          <div className="border mt-6 text-center shadow p-4 m-8 hover:shadow-lg">
+          <div className="border mt-6 text-center shadow p-4 m-8 hover:shadow-lg hover:scale-105 duration-300">
             <div className="flex justify-center items-center mt-2">
               <img src={f1} alt="img" className="w-12" />
             </div>

@@ -1,10 +1,10 @@
 import React, { useRef, useState } from "react";
-import sound1 from "../assets/sound1.mp3";
-import sound2 from "../assets/sound2.mp3";
-import sound3 from "../assets/sound3.mp3";
+import sound_1 from "../assets/sound_1.mp3";
+import sound2 from "../assets/s2.wav";
+import sound3 from "../assets/s3.wav";
 
 const Sound = () => {
-  const [currentSound, setCurrentSound] = useState(sound1);
+  const [currentSound, setCurrentSound] = useState(sound_1);
   const [soundIndex, setSoundIndex] = useState(1);
   const [isPlaying, setIsPlaying] = useState(false);
   const [duration, setDuration] = useState(0);
@@ -25,14 +25,14 @@ const Sound = () => {
     let newSound;
     let newIndex;
 
-    if (currentSound === sound1) {
+    if (currentSound === sound_1) {
       newSound = sound2;
       newIndex = 2;
     } else if (currentSound === sound2) {
       newSound = sound3;
       newIndex = 3;
     } else {
-      newSound = sound1;
+      newSound = sound_1;
       newIndex = 1;
     }
 
@@ -71,26 +71,26 @@ const Sound = () => {
 
         <div className="my-4 p-4">
           <i
-            className="fa-solid fa-circle-play text-[45px] l mx-6 cursor-pointer text-white "
+            className="fa-solid fa-circle-play text-[45px] l mx-6 cursor-pointer text-white hover:scale-105 duration-300"
             onClick={handlePlay}
           />
           <i
-            className="fa-regular fa-circle-pause  text-[45px]  mx-6  cursor-pointer text-white "
+            className="fa-regular fa-circle-pause  text-[45px]  mx-6  cursor-pointer text-white hover:scale-105 duration-300"
             onClick={handlePause}
           />
         </div>
         <button
-          className="bg-orange-500 p-2.5 rounded-2xl px-6 my-2 xl:p-4 xl:px-6 xl:text-[18px] font-semibold text-white"
+          className="bg-orange-500 p-2.5 rounded-2xl px-6 my-2 xl:p-4 xl:px-6 xl:text-[18px] font-semibold text-white hover:scale-105 duration-300"
           onClick={handleChangeSound}
         >
           Change Sound
         </button>
         <p className="text-white">(Using Sound {soundIndex})</p>
       </div>
-      <div className="p-3 flex justify-center md:flex-col gap-4">
+      <div className="sm:p-3 flex justify-center md:flex-col md:gap-4">
         <div>
           <button
-            className={`bg-orange-500 mx-2 p-2 rounded-md px-4 xl:p-4 xl:px-6 xl:m-6 text-white font-semibold ${
+            className={`bg-orange-500 mx-2 p-2 rounded-md px-3 xl:p-4 xl:px-6 xl:m-6 text-white hover:scale-105 duration-300 font-semibold ${
               activeButton === 4 && "border-2 border-white shadow-2xl"
             }`}
             onClick={() => handleDuration(4)}
@@ -98,7 +98,7 @@ const Sound = () => {
             4 Minutes
           </button>
           <button
-            className={`bg-orange-500 mx-2 p-2 rounded-md px-4 xl:p-4 xl:px-6 xl:m-6 text-white font-semibold ${
+            className={`bg-orange-500 sm:mx-2 p-2 rounded-md px-3 xl:p-4 xl:px-6 xl:m-6 text-white hover:scale-105 duration-300 font-semibold ${
               activeButton === 8 && "border-2 border-white shadow-2xl"
             }`}
             onClick={() => handleDuration(8)}
@@ -108,7 +108,7 @@ const Sound = () => {
         </div>
         <div className="text-center">
           <button
-            className={`bg-orange-500 p-2 rounded-md px-4 xl:p-4 xl:px-6 text-white font-semibold ${
+            className={`bg-orange-500 p-2 mx-2 rounded-md md:px-3 xl:p-4 xl:px-6 text-white hover:scale-105 duration-300 font-semibold ${
               activeButton === 12 && "border-2 border-white shadow-2xl"
             }`}
             onClick={() => handleDuration(12)}

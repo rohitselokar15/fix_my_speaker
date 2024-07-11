@@ -5,6 +5,7 @@ import Blog from "./pages/Blog";
 import About from "./pages/About";
 import Footer from "./components/Footer"
 import Home from "./pages/Home";
+import Subscribe from "./components/Subscribe";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
       </Routes>
+      <Subscribe/>
       <Footer/>
     </>
   );
