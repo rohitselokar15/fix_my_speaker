@@ -1,12 +1,36 @@
 import React from "react";
+import { Helmet } from "react-helmet";
+
 
 const Terms_condition = () => {
   return (
-    <div className="text-gray-500 container mx-2 lg:max-w-3xl xl:max-w-4xl lg:mx-auto mt-6 mb-20">
+    <div className="text-gray-700 container mx-2 lg:max-w-3xl xl:max-w-4xl lg:mx-auto mt-6 mb-20">
+      
+      <Helmet>
+        <title>Terms and Conditions | Speaker Cleaner - speakercleaner.io</title>
+        <meta name="title" content="Terms and Conditions | Speaker Cleaner - speakercleaner.io" />
+        <meta name="description" content="Review the Terms and Conditions for using Speaker Cleaner at speakercleaner.io. Understand your rights and responsibilities while using our speaker cleaning services and tools." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://speakercleaner.io/terms-and-conditions/" />
+        <meta property="og:title" content="Terms and Conditions | Speaker Cleaner - speakercleaner.io" />
+        <meta property="og:description" content="Review the Terms and Conditions for using Speaker Cleaner at speakercleaner.io. Understand your rights and responsibilities while using our speaker cleaning services and tools." />
+        <meta property="og:image" content="#" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://speakercleaner.io/terms-and-conditions/" />
+        <meta property="twitter:title" content="Terms and Conditions | Speaker Cleaner - speakercleaner.io" />
+        <meta property="twitter:description" content="Review the Terms and Conditions for using Speaker Cleaner at speakercleaner.io. Understand your rights and responsibilities while using our speaker cleaning services and tools." />
+        <meta property="twitter:image" content="#" />
+        <link rel="canonical" href="https://speakercleaner.io/terms-and-conditions/" />
+        <meta name="robots" content="index, follow" />
+        <meta name="revisit-after" content="1 days" />
+        <meta name="author" content="speakercleaner.io" />
+      </Helmet>
+      
+      
       <div className="">
-        <p className="font-bold text-[25px] md:text-center md:py-6">
+        <h1 className="font-bold text-[25px] md:text-center md:py-6">
           Terms and Conditions
-        </p>
+        </h1>
 
         <p className="mt-3">Welcome to Speaker cleaner !</p>
 
@@ -40,7 +64,7 @@ const Terms_condition = () => {
       </div>
 
       <div className=" mt-10">
-        <p className="font-bold text-[25px]">Cookies</p>
+        <h2 className="font-bold text-[25px]">Cookies</h2>
 
         <p className="mt-2">
           We employ the use of cookies. By accessing Speaker cleaner , you
@@ -58,7 +82,7 @@ const Terms_condition = () => {
       </div>
 
       <div className="mt-10">
-        <p className="text-[25px] font-bold">License</p>
+        <h2 className="text-[25px] font-bold">License</h2>
 
         <p className="mt-3">
           Unless otherwise stated, Speaker Cleaner and/or its licensors own the
@@ -130,7 +154,7 @@ const Terms_condition = () => {
       </div>
 
       <div className="mt-10">
-        <p className="font-bold text-[25px]">Hyperlinking to our Content</p>
+        <h2 className="font-bold text-[25px]">Hyperlinking to our Content</h2>
 
         <p className="mt-3">
           The following organizations may link to our Website without prior
@@ -223,7 +247,7 @@ const Terms_condition = () => {
       </div>
 
       <div className="mt-10">
-        <p className="font-bold text-[25px]">iFrames</p>
+        <h2 className="font-bold text-[25px]">iFrames</h2>
 
         <p className="mt-3">
           Without prior approval and written permission, you may not create
@@ -233,7 +257,7 @@ const Terms_condition = () => {
       </div>
 
       <div className="mt-10">
-        <p className="font-bold text-[25px]">Content Liability</p>
+        <h2 className="font-bold text-[25px]">Content Liability</h2>
 
         <p className="mt-3">
           We shall not be hold responsible for any content that appears on your
@@ -246,7 +270,7 @@ const Terms_condition = () => {
       </div>
 
       <div className="mt-10">
-        <p className="font-bold text-[25px]">Reservation of Rights</p>
+        <h2 className="font-bold text-[25px]">Reservation of Rights</h2>
 
         <p className="mt-3">
           We reserve the right to request that you remove all links or any
@@ -259,9 +283,9 @@ const Terms_condition = () => {
       </div>
 
       <div className="mt-10">
-        <p className="font-bold text-[25px]">
+        <h2 className="font-bold text-[25px]">
           Removal of links from our website
-        </p>
+        </h2>
 
         <p className="mt-3">
           If you find any link on our Website that is offensive for any reason,
@@ -278,7 +302,7 @@ const Terms_condition = () => {
         </p>
       </div>
 
-      <p className="font-bold text-[25px] mt-10">Disclaimer</p>
+      <h2 className="font-bold text-[25px] mt-10">Disclaimer</h2>
 
       <p className="mt-3">
         To the maximum extent permitted by applicable law, we exclude all

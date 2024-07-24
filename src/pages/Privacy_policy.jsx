@@ -1,11 +1,59 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const Privacy_policy = () => {
   return (
-    <div className="text-gray-500 container mx-2 lg:max-w-3xl xl:max-w-4xl lg:mx-auto mt-6 mb-20">
-      <p className="font-bold text-[25px] md:text-center py-4">
+    <div className="text-gray-700 container mx-2 lg:max-w-3xl xl:max-w-4xl lg:mx-auto mt-6 mb-20">
+      <Helmet>
+        <title>Privacy Policy | Speaker Cleaner - speakercleaner.io</title>
+        <meta
+          name="title"
+          content="Privacy Policy | Speaker Cleaner - speakercleaner.io"
+        />
+        <meta
+          name="description"
+          content="Read the Privacy Policy at speakercleaner.io. We protect your privacy and personal information. Learn about our data handling practices."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://speakercleaner.io/privacy-policy/"
+        />
+        <meta
+          property="og:title"
+          content="Privacy Policy | Speaker Cleaner - speakercleaner.io"
+        />
+        <meta
+          property="og:description"
+          content="Read the Privacy Policy at speakercleaner.io. We protect your privacy and personal information. Learn about our data handling practices."
+        />
+        <meta property="og:image" content="#" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://speakercleaner.io/privacy-policy/"
+        />
+        <meta
+          property="twitter:title"
+          content="Privacy Policy | Speaker Cleaner - speakercleaner.io"
+        />
+        <meta
+          property="twitter:description"
+          content="Read the Privacy Policy at speakercleaner.io. We protect your privacy and personal information. Learn about our data handling practices."
+        />
+        <meta property="twitter:image" content="#" />
+        <link
+          rel="canonical"
+          href="https://speakercleaner.io/privacy-policy/"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="revisit-after" content="1 days" />
+        <meta name="author" content="speakercleaner.io" />
+      </Helmet>
+
+      <h1 className="font-bold text-[25px] md:text-center py-4">
         Privacy Policy
-      </p>
+      </h1>
       <p className="mt-2">
         This Privacy Policy describes Our policies and procedures on the
         collection, use and disclosure of Your information when You use the
@@ -17,17 +65,17 @@ const Privacy_policy = () => {
         the Service, You agree to the collection and use of information in
         accordance with this Privacy Policy.
       </p>
-      <p className="mt-6 font-semibold text-[17px]">
+      <h2 className="mt-6 font-semibold text-[17px]">
         Interpretation and Definitions
-      </p>
-      <p className="mt-2 font-semibold">Interpretation</p>
+      </h2>
+      <h3 className="mt-2 font-semibold">Interpretation</h3>
       <p className="mt-2">
         The words of which the initial letter is capitalized have meanings
         defined under the following conditions. The following definitions shall
         have the same meaning regardless of whether they appear in singular or
         in plural.
       </p>
-      <p className="mt-2 font-semibold ">Definitions</p>
+      <h3 className="mt-2 font-semibold ">Definitions</h3>
       <p className="mt-2">For the purposes of this Privacy Policy:</p>
 
       <ul className="list-disc pl-5 mt-3">
@@ -117,11 +165,11 @@ const Privacy_policy = () => {
         </li>
       </ul>
 
-      <p className="mt-6 font-semibold text-[17px]">
+      <h2 className="mt-6 font-semibold text-[17px]">
         Collecting and Using Your Personal Data
-      </p>
-      <p className="mt-2">Types of Data Collected</p>
-      <p className="mt-2 font-semibold">Personal Data</p>
+      </h2>
+      <h3 className="mt-2">Types of Data Collected</h3>
+      <h4 className="mt-2 font-semibold">Personal Data</h4>
       <p className="mt-2">
         While using Our Service, We may ask You to provide Us with certain
         personally identifiable information that can be used to contact or
@@ -131,6 +179,8 @@ const Privacy_policy = () => {
       <ul className="list-disc pl-5 mt-3">
         <li>Usage Data</li>
       </ul>
+
+      <h4 className="mt-6 font-semibold text-[17px]">Usage Data</h4>
 
       <p className="mt-3">
         Usage Data is collected automatically when using the Service.
@@ -155,7 +205,9 @@ const Privacy_policy = () => {
         visit our Service or when You access the Service by or through a mobile
         device.
       </p>
-      <p className="font-bold mt-3">Tracking Technologies and Cookies</p>
+
+      <h4 className="font-bold mt-3">Tracking Technologies and Cookies</h4>
+
       <p className="mt-3">
         We use Cookies and similar tracking technologies to track the activity
         on Our Service and store certain information. Tracking technologies used
@@ -250,7 +302,8 @@ const Privacy_policy = () => {
         Privacy Policy.
       </p>
 
-      <p className="mt-6 font-semibold">Use of Your Personal Data</p>
+      <h3 className="mt-6 font-semibold">Use of Your Personal Data</h3>
+
       <p className="mt-3">
         The Company may use Personal Data for the following purposes:
       </p>
@@ -363,7 +416,7 @@ const Privacy_policy = () => {
         </li>
       </ul>
 
-      <p className="mt-6 font-semibold">Retention of Your Personal Data</p>
+      <h3 className="mt-6 font-semibold">Retention of Your Personal Data</h3>
       <p className="mt-3">
         The Company will retain Your Personal Data only for as long as is
         necessary for the purposes set out in this Privacy Policy. We will
@@ -379,7 +432,7 @@ const Privacy_policy = () => {
         functionality of Our Service, or We are legally obligated to retain this
         data for longer time periods.
       </p>
-      <p className="mt-6 font-semibold">Transfer of Your Personal Data</p>
+      <h3 className="mt-6 font-semibold">Transfer of Your Personal Data</h3>
       <p className="mt-3">
         Your information, including Personal Data, is processed at the Company's
         operating offices and in any other places where the parties involved in
@@ -399,7 +452,7 @@ const Privacy_policy = () => {
         a country unless there are adequate controls in place including the
         security of Your data and other personal information.
       </p>
-      <p className="mt-6 font-semibold">Delete Your Personal Data</p>
+      <h3 className="mt-6 font-semibold">Delete Your Personal Data</h3>
       <p className="mt-3">
         You have the right to delete or request that We assist in deleting the
         Personal Data that We have collected about You.
@@ -420,21 +473,21 @@ const Privacy_policy = () => {
         when we have a legal obligation or lawful basis to do so.
       </p>
 
-      <p className="mt-3">Disclosure of Your Personal Data</p>
-      <p className="mt-6 font-semibold">Business Transactions</p>
+      <h3 className="mt-3">Disclosure of Your Personal Data</h3>
+      <h4 className="mt-6 font-semibold">Business Transactions</h4>
       <p className="mt-3">
         If the Company is involved in a merger, acquisition or asset sale, Your
         Personal Data may be transferred. We will provide notice before Your
         Personal Data is transferred and becomes subject to a different Privacy
         Policy.
       </p>
-      <p className="mt-6 font-semibold">Law enforcement</p>
+      <h4 className="mt-6 font-semibold">Law enforcement</h4>
       <p className="mt-3">
         Under certain circumstances, the Company may be required to disclose
         Your Personal Data if required to do so by law or in response to valid
         requests by public authorities (e.g. a court or a government agency).
       </p>
-      <p className="mt-6 font-semibold">Other legal requirements</p>
+      <h4 className="mt-6 font-semibold">Other legal requirements</h4>
       <p className="mt-3">
         The Company may disclose Your Personal Data in the good faith belief
         that such action is necessary to:
@@ -453,7 +506,7 @@ const Privacy_policy = () => {
         <li>Protect against legal liability</li>
       </ul>
 
-      <p className="mt-6 font-semibold">Security of Your Personal Data</p>
+      <h3 className="mt-6 font-semibold">Security of Your Personal Data</h3>
       <p className="mt-3">
         The security of Your Personal Data is important to Us, but remember that
         no method of transmission over the Internet, or method of electronic
@@ -461,7 +514,7 @@ const Privacy_policy = () => {
         means to protect Your Personal Data, We cannot guarantee its absolute
         security.
       </p>
-      <p className="mt-6 font-semibold">Children's Privacy</p>
+      <h2 className="mt-6 font-semibold">Children's Privacy</h2>
       <p className="mt-3">
         Our Service does not address anyone under the age of 13. We do not
         knowingly collect personally identifiable information from anyone under
@@ -477,7 +530,7 @@ const Privacy_policy = () => {
         require Your parent's consent before We collect and use that
         information.
       </p>
-      <p className="mt-6 font-semibold">Links to Other Websites</p>
+      <h2 className="mt-6 font-semibold">Links to Other Websites</h2>
       <p className="mt-3">
         Our Service may contain links to other websites that are not operated by
         Us. If You click on a third party link, You will be directed to that
@@ -503,7 +556,7 @@ const Privacy_policy = () => {
         changes. Changes to this Privacy Policy are effective when they are
         posted on this page.
       </p>
-      <p className="mt-6 font-bold">Contact Us</p>
+      <h2 className="mt-6 font-bold">Contact Us</h2>
       <p className="mt-3">
         If you have any questions about this Privacy Policy, You can contact us:
       </p>
