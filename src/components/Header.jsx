@@ -33,9 +33,9 @@ const Header = () => {
             <li className="flex cursor-pointer my-2 lg:my-0 lg:ml-10 hover:text-[#1634D4]">
               <Link to="/">Fix My Speaker</Link>
             </li>
-            <li className="flex items-center cursor-pointer my-2 lg:my-0 lg:ml-10 hover:text-[#1634D4]">
+            {/* <li className="flex items-center cursor-pointer my-2 lg:my-0 lg:ml-10 hover:text-[#1634D4]">
               <Link to="/blog">Blog</Link>
-            </li>
+            </li> */}
             <li className="cursor-pointer my-2 lg:my-0 lg:ml-10 hover:text-[#1634D4]">
               <Link to="/about">About us</Link>
             </li>
