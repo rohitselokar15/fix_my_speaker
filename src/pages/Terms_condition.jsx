@@ -1,32 +1,58 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-
 const Terms_condition = () => {
   return (
     <div className="text-gray-700 container mx-2 lg:max-w-3xl xl:max-w-4xl lg:mx-auto mt-6 mb-20">
-      
       <Helmet>
-        <title>Terms and Conditions | Speaker Cleaner - speakercleaner.io</title>
-        <meta name="title" content="Terms and Conditions | Speaker Cleaner - speakercleaner.io" />
-        <meta name="description" content="Review the Terms and Conditions for using Speaker Cleaner at speakercleaner.io. Understand your rights and responsibilities while using our speaker cleaning services and tools." />
+        <title>
+          Terms and Conditions | Speaker Cleaner - speakercleaner.io
+        </title>
+        <meta
+          name="title"
+          content="Terms and Conditions | Speaker Cleaner - speakercleaner.io"
+        />
+        <meta
+          name="description"
+          content="Review the Terms and Conditions for using Speaker Cleaner at speakercleaner.io. Understand your rights and responsibilities while using our speaker cleaning services and tools."
+        />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://speakercleaner.io/terms-and-conditions/" />
-        <meta property="og:title" content="Terms and Conditions | Speaker Cleaner - speakercleaner.io" />
-        <meta property="og:description" content="Review the Terms and Conditions for using Speaker Cleaner at speakercleaner.io. Understand your rights and responsibilities while using our speaker cleaning services and tools." />
+        <meta
+          property="og:url"
+          content="https://speakercleaner.io/terms-and-conditions/"
+        />
+        <meta
+          property="og:title"
+          content="Terms and Conditions | Speaker Cleaner - speakercleaner.io"
+        />
+        <meta
+          property="og:description"
+          content="Review the Terms and Conditions for using Speaker Cleaner at speakercleaner.io. Understand your rights and responsibilities while using our speaker cleaning services and tools."
+        />
         <meta property="og:image" content="#" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://speakercleaner.io/terms-and-conditions/" />
-        <meta property="twitter:title" content="Terms and Conditions | Speaker Cleaner - speakercleaner.io" />
-        <meta property="twitter:description" content="Review the Terms and Conditions for using Speaker Cleaner at speakercleaner.io. Understand your rights and responsibilities while using our speaker cleaning services and tools." />
+        <meta
+          property="twitter:url"
+          content="https://speakercleaner.io/terms-and-conditions/"
+        />
+        <meta
+          property="twitter:title"
+          content="Terms and Conditions | Speaker Cleaner - speakercleaner.io"
+        />
+        <meta
+          property="twitter:description"
+          content="Review the Terms and Conditions for using Speaker Cleaner at speakercleaner.io. Understand your rights and responsibilities while using our speaker cleaning services and tools."
+        />
         <meta property="twitter:image" content="#" />
-        <link rel="canonical" href="https://speakercleaner.io/terms-and-conditions/" />
+        <link
+          rel="canonical"
+          href="https://speakercleaner.io/terms-and-conditions/"
+        />
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="1 days" />
         <meta name="author" content="speakercleaner.io" />
       </Helmet>
-      
-      
+
       <div className="">
         <h1 className="font-bold text-[25px] md:text-center md:py-6">
           Terms and Conditions
