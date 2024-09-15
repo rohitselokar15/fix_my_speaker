@@ -3,8 +3,8 @@ import { Helmet } from "react-helmet";
 // import f1 from "../assets/f1.png";
 import free from "../assets/free.png";
 import fast from "../assets/Fast and reliable.png";
-import installation from "../assets/No installation Required.png"
-import ui from "../assets/Simple interface.png"
+import installation from "../assets/No installation Required.png";
+import ui from "../assets/Simple interface.png";
 const Content = () => {
   return (
     <div className="container mx-auto max-w-[900px] p-2 my-4">
@@ -121,7 +121,11 @@ const Content = () => {
         <div className="mx-6 mt-4 grid md:grid-cols-2 gap-2 lg:px-4 ">
           <div className="border mt-6 text-center shadow p-4 m-8 hover:shadow-lg hover:scale-105 duration-300">
             <div className="flex justify-center items-center mt-2">
-              <img src={free} alt="img" className="w-12" />
+              <img
+                src={free}
+                alt="https://fixmyspeaker.vercel.app/assets/free-DT4wgeMP.png "
+                className="w-12"
+              />
             </div>
             <div>
               <p className="font-semibold text-[18px] mt-4">100% Free</p>
@@ -136,7 +140,11 @@ const Content = () => {
 
           <div className="border mt-6 text-center shadow p-4 m-8 hover:shadow-lg hover:scale-105 duration-300">
             <div className="flex justify-center items-center mt-2">
-              <img src={ui} alt="img" className="w-12" />
+              <img
+                src={ui}
+                alt="https://fixmyspeaker.vercel.app/assets/Simple%20interface-UyGbv4Te.png "
+                className="w-12"
+              />
             </div>
             <div>
               <p className="font-semibold text-[18px] mt-4">Simple Interface</p>
@@ -152,7 +160,11 @@ const Content = () => {
 
           <div className="border mt-6 text-center shadow p-4 m-8 hover:shadow-lg hover:scale-105 duration-300">
             <div className="flex justify-center items-center mt-2">
-              <img src={fast} alt="img" className="w-12" />
+              <img
+                src={fast}
+                alt="https://fixmyspeaker.vercel.app/assets/Fast%20and%20reliable-OvnXk6xF.png "
+                className="w-12"
+              />
             </div>
             <div>
               <p className="font-semibold text-[18px] mt-4">
@@ -168,7 +180,11 @@ const Content = () => {
 
           <div className="border mt-6 text-center shadow p-4 m-8 hover:shadow-lg hover:scale-105 duration-300">
             <div className="flex justify-center items-center mt-2">
-              <img src={installation} alt="img" className="w-12" />
+              <img
+                src={installation}
+                alt="https://fixmyspeaker.vercel.app/assets/No%20installation%20Required-DXolALKY.png "
+                className="w-12"
+              />
             </div>
             <div>
               <p className="font-semibold text-[18px] mt-4">
@@ -225,12 +241,12 @@ const Content = () => {
 
       {/* FAQ */}
       <div className="mt-8 xl:mt-14 mx-2">
-        <p className="text-[25px] font-semibold">FAQs</p>
+        <h2 className="text-[25px] font-semibold">FAQs</h2>
         <div class="divide-y divide-neutral-200 mt-4">
           <div class="py-3 md:py-5">
             <details class="group">
               <summary class="flex cursor-pointer list-none items-center justify-between">
-                <span className="text-[#434061] text-[16px] lg:text-[18px]">
+                <span className="font-semibold text-[16px] lg:text-[17px]">
                   {" "}
                   <h3>How do I fix my speaker?</h3>
                 </span>
@@ -250,7 +266,7 @@ const Content = () => {
                   </svg>
                 </span>
               </summary>
-              <p class="group-open:animate-fadeIn mt-3 text-[#434061]">
+              <p class="group-open:animate-fadeIn mt-3">
                 Fixing a speaker is always easier than you think. Use our
                 speaker cleaner, which emits sound waves to dislodge dust
                 particles or water, and voila! Your speaker will become as good
@@ -262,7 +278,7 @@ const Content = () => {
           <div class="py-3 md:py-5">
             <details class="group">
               <summary class="flex cursor-pointer list-none items-center justify-between">
-                <span className="text-[#434061] text-[16px] lg:text-[18px]">
+                <span className="font-semibold text-[16px] lg:text-[17px]">
                   {" "}
                   <h3>Can I fix the water damage to my speaker on my own?</h3>
                 </span>
@@ -282,7 +298,7 @@ const Content = () => {
                   </svg>
                 </span>
               </summary>
-              <p class="group-open:animate-fadeIn mt-3 text-[16px] text-[#434061]">
+              <p class="group-open:animate-fadeIn mt-3 text-[16px]">
                 Yes, you can often fix water damage to your speaker on your own,
                 especially if you act quickly. Use our speaker cleaner with
                 variable sound vibration frequencies. This will help by
@@ -296,7 +312,7 @@ const Content = () => {
           <div class="py-3 md:py-5">
             <details class="group">
               <summary class="flex cursor-pointer list-none items-center justify-between">
-                <span className="text-[#434061] text-[16px] lg:text-[18px]">
+                <span className="font-semibold text-[16px] lg:text-[17px]">
                   {" "}
                   <h3>What tools do I need for basic speaker repairs?</h3>
                 </span>
@@ -316,7 +332,7 @@ const Content = () => {
                   </svg>
                 </span>
               </summary>
-              <p class="group-open:animate-fadeIn mt-3 text-[16px] text-[#434061]">
+              <p class="group-open:animate-fadeIn mt-3 text-[16px]">
                 For basic speaker repairs, you don't need a lot of fancy tools.
                 A speaker cleaner like Fix My Speaker, which has special sound
                 and vibration frequencies, can handle most dust and water
@@ -328,7 +344,7 @@ const Content = () => {
           <div class="py-3 md:py-5">
             <details class="group">
               <summary class="flex cursor-pointer list-none items-center justify-between">
-                <span className="text-[#434061] text-[16px] lg:text-[18px]">
+                <span className="font-semibold text-[16px] lg:text-[17px]">
                   {" "}
                   <h3>Is dust bad for your speakers?</h3>
                 </span>
@@ -348,7 +364,7 @@ const Content = () => {
                   </svg>
                 </span>
               </summary>
-              <p class="group-open:animate-fadeIn mt-3 text-[16px] text-[#434061]">
+              <p class="group-open:animate-fadeIn mt-3 text-[16px] ">
                 Yes, dust can be bad for your speakers. Over time, dust can
                 accumulate inside the speakers and around the components,
                 leading to muffled sound or even blocking the sound entirely. It
@@ -363,7 +379,7 @@ const Content = () => {
           <div class="py-3 md:py-5">
             <details class="group">
               <summary class="flex cursor-pointer list-none items-center justify-between">
-                <span className="text-[#434061] text-[16px] lg:text-[18px]">
+                <span className="font-semibold text-[16px] lg:text-[17px]">
                   {" "}
                   <h3>Will speakers work if they get wet?</h3>
                 </span>

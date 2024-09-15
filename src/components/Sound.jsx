@@ -63,34 +63,44 @@ const Sound = () => {
   };
 
   return (
-    <div className="bg-[#242526] h-[25rem] py-1 md:flex border-red-800 justify-center items-center xl:h-[30rem]">
-      <div className="p-8 text-center lg:mr-20 xl:mr-[120px]">
-        <button className="bg-white p-3 rounded-full px-8 text-[25px] xl:text-[45px] xl:px-7 xl:p-2">
-          💨 💦
-        </button>
-
-        <div className="my-4 p-4">
-          <i
-            className="fa-solid fa-circle-play text-[45px] l mx-6 cursor-pointer text-white hover:scale-105 duration-300"
-            onClick={handlePlay}
-          />
-          <i
-            className="fa-regular fa-circle-pause  text-[45px]  mx-6  cursor-pointer text-white hover:scale-105 duration-300"
-            onClick={handlePause}
-          />
-        </div>
-        <button
-          className="bg-orange-500 p-2.5 rounded-2xl px-6 my-2 xl:p-4 xl:px-6 xl:text-[18px] font-semibold text-white hover:scale-105 duration-300"
-          onClick={handleChangeSound}
-        >
-          Change Sound
-        </button>
-        <p className="text-white">(Using Sound {soundIndex})</p>
+    <div className="bg-[#242526] p-2 xl:py-6">
+      <div className=" text-white text-center">
+        <h1 className="font-semibold text-[30px] xl:text-[35px]">
+          Speaker cleaner
+        </h1>
+        <p>
+          Eject water from phone’s speakers swiftly to keep sound crystal clear
+        </p>
       </div>
-      <div className="sm:p-3 flex justify-center md:flex-col md:gap-4">
-        <div>
+
+      <div className="py-1 lg:flex justify-center items-center gap-8 xl:gap-10 xl:mt-10">
+        <div className=" p-8 text-center">
+          <button className="bg-white p-4 rounded-full px-9 text-[25px] lg:text-[20px] xl:text-[35px] xl:px-7 xl:p-2">
+            💨 💦
+          </button>
+
+          <div className="my-4 p-4">
+            <i
+              className="fa-solid fa-circle-play text-[45px] l mx-6 cursor-pointer text-white hover:scale-105 duration-300"
+              onClick={handlePlay}
+            />
+            <i
+              className="fa-regular fa-circle-pause  text-[45px]  mx-6  cursor-pointer text-white hover:scale-105 duration-300"
+              onClick={handlePause}
+            />
+          </div>
           <button
-            className={`bg-orange-500 mx-2 p-2 rounded-md px-3 xl:p-4 xl:px-6 xl:m-6 text-white hover:scale-105 duration-300 font-semibold ${
+            className="bg-orange-500 p-2.5 rounded-2xl px-6 my-2 xl:p-4 xl:px-6 xl:text-[16px] font-semibold text-white hover:scale-105 duration-300"
+            onClick={handleChangeSound}
+          >
+            Change Sound
+          </button>
+          <p className="text-white">(Using Sound {soundIndex})</p>
+        </div>
+
+        <div className="text-center md:flex items-center justify-center gap-4 lg:flex-col xl:p-4">
+          <button
+            className={`bg-orange-500 mx-2 p-2 md:p-3 rounded-md md:px-3 xl:px-6 text-white hover:scale-105 duration-300 font-semibold ${
               activeButton === 4 && "border-2 border-white shadow-2xl"
             }`}
             onClick={() => handleDuration(4)}
@@ -98,25 +108,35 @@ const Sound = () => {
             4 Minutes
           </button>
           <button
-            className={`bg-orange-500 sm:mx-2 p-2 rounded-md px-3 xl:p-4 xl:px-6 xl:m-6 text-white hover:scale-105 duration-300 font-semibold ${
+            className={`bg-orange-500 md::mx-2 p-2 md:p-3 rounded-md xl:px-6 xl:my-4 text-white hover:scale-105 duration-300 font-semibold ${
               activeButton === 8 && "border-2 border-white shadow-2xl"
             }`}
             onClick={() => handleDuration(8)}
           >
             8 Minutes
           </button>
-        </div>
-        <div className="text-center">
           <button
-            className={`bg-orange-500 p-2 mx-2 rounded-md md:px-3 xl:p-4 xl:px-6 text-white hover:scale-105 duration-300 font-semibold ${
+            className={` bg-orange-500 my-2 lg:my-0 p-2 md:p-3 mx-2 rounded-md md:px-3 xl:px-6 text-white hover:scale-105 duration-300 font-semibold ${
               activeButton === 12 && "border-2 border-white shadow-2xl"
             }`}
             onClick={() => handleDuration(12)}
           >
             12 Minutes{" "}
           </button>
+
+          {/* <div className="text-center">
+            <button
+              className={`bg-orange-500 p-2 mx-2 rounded-md md:px-3 xl:p-4 xl:px-6 text-white hover:scale-105 duration-300 font-semibold ${
+                activeButton === 12 && "border-2 border-white shadow-2xl"
+              }`}
+              onClick={() => handleDuration(12)}
+            >
+              12 Minutes{" "}
+            </button>
+          </div> */}
         </div>
       </div>
+
       <audio ref={audioRef} src={currentSound} />
     </div>
   );
