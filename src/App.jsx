@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 // import Subscribe from "./components/Subscribe";
 import Terms_condition from "./pages/Terms_condition";
 import Privacy_policy from "./pages/Privacy_policy";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/terms-and-conditions" element={<Terms_condition />} />
         <Route path="/privacy-policy" element={<Privacy_policy />} />
+        <Route path="/contact-us" element={<Contact />} />
       </Routes>
       {/* <Subscribe /> */}
       <Footer />

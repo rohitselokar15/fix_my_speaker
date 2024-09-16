@@ -68,13 +68,13 @@ const Sound = () => {
         <h1 className="font-semibold text-[30px] xl:text-[35px]">
           Speaker cleaner
         </h1>
-        <p>
+        <p className="mt-4">
           Eject water from phone’s speakers swiftly to keep sound crystal clear
         </p>
       </div>
 
       <div className="py-1 lg:flex justify-center items-center gap-8 xl:gap-10 xl:mt-10">
-        <div className=" p-8 text-center">
+        <div className="p-8 text-center">
           <button className="bg-white p-4 rounded-full px-9 text-[25px] lg:text-[20px] xl:text-[35px] xl:px-7 xl:p-2">
             💨 💦
           </button>
