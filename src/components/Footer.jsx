@@ -9,11 +9,12 @@ const Footer = () => {
         <div className="grid lg:grid-cols-3 lg:text-justify gap-10">
           <div className="flex flex-col justify-center items-center lg:px-8 xl:px-0">
             <img src={logo} alt="img" className="p-2" />
-            <p className="">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book
+            <p>
+              A speaker cleaner is a tool or product designed to remove dust,
+              dirt, and debris from the speakers of electronic devices, such as
+              smartphones, laptops, or external speakers. By keeping the speaker
+              grilles and components clean, it helps maintain optimal sound
+              quality and prolongs the life of the speakers.
             </p>
           </div>
           <div className="flex items-center justify-center">
@@ -24,7 +25,9 @@ const Footer = () => {
               <li className="py-1">
                 <Link to="/privacy-policy">Privacy Policy</Link>
               </li>
-              <li className="py-1">Contact Us</li>
+              <li className="py-1">
+                <Link to="/contact-us">Contact Us</Link>
+              </li>
               <li className="py-1">
                 <Link to="/about">About Us</Link>
               </li>

@@ -47,11 +47,11 @@ const Content = () => {
       {/* Paragraph */}
       <div className="text-justify">
         <div>
-          <h1 className="font-semibold text-[28px] md:mt-6">Speaker cleaner</h1>
+          {/* <h1 className="font-semibold text-[28px] md:mt-6">Speaker cleaner</h1>
           <p className="text-gray-800 py-2">
             Eject water from your phone’s speakers swiftly to keep sound crystal
             clear.
-          </p>
+          </p> */}
 
           <p className="text-gray-800 py-2">
             Did you just witness an accidental dunk of your phone into the pool,
