@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/fix_my_speaker_logo.png";
+import logo from "../assets/logo.jpg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         <div className="mt-10 lg:mt-28">
           <p className="font-semibold">
-            Copyright © 2024, All Right Reserved Fixmyspeaker
+            Copyright © 2024, All Right Reserved Speakercleaner
           </p>
         </div>
       </div>

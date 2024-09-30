@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/fix_my_speaker_logo.png";
+import logo from "../assets/logo.jpg";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
